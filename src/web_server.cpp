@@ -140,7 +140,7 @@ const char html[] PROGMEM = R"rawliteral(
             var color1 = document.getElementById('color1').value.substring(1);
             var color2 = document.getElementById('color2').value.substring(1);
             var xhr = new XMLHttpRequest();
-            xhr.open('GET', '/setcolor?color=' + color1 + '&color2=' + color2, true);
+            xhr.open('GET', '/setcolor?color1=' + color1 + '&color2=' + color2, true);
             xhr.send();
         }
 
